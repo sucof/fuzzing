@@ -1,0 +1,10 @@
+cp entry.cpp process.cpp
+cat instrutil.cpp >> process.cpp
+cat recorder.cpp >> process.cpp
+cat utility.cpp >> process.cpp
+cat memutil.cpp >> process.cpp
+cat signal.cpp >> process.cpp
+cat mutation.cpp >> process.cpp
+cat fuzzing.cpp >> process.cpp
+cat instrument.cpp >> process.cpp
+make obj-intel64/process.so

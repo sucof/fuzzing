@@ -1,0 +1,2 @@
+g++ -c -fPIC lcs.c -O3 -o lcs.o
+g++ -shared -Wl,-soname,liblcs.so -o liblcs.so  lcs.o
